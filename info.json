@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "e72d29eb08bafb349ed302be382fd08c713c8bad",
+    "author": "leonawicz <matt_leonawicz@esource.com>",
+    "time": "2021-02-19 20:02:34",
+    "files": 5,
+    "merge": false,
+    "message": "Fix URLs.\n"
+  },
+  "remote": "https://github.com/ropensci/epubr",
+  "pkg": "epubr"
+}
