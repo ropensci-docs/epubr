@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "28f0190703b76f0858f663538ce7a3b06d960e56",
+    "author": "leonawicz <mfleonawicz@gmail.com>",
+    "time": "2023-09-10 02:20:43",
+    "files": 1,
+    "merge": false,
+    "message": "Update wordlist.\n"
+  },
+  "repo": "https://github.com/ropensci/epubr",
+  "pkg": "epubr"
+}
