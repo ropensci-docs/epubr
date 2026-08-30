@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "0d4097e9a3e87dd790c59230801356a0b8faf9da",
+    "author": "leonawicz <mfleonawicz@gmail.com>",
+    "time": "2024-09-11T21:37:54Z",
+    "files": 2,
+    "merge": false,
+    "message": "Fix URLs for win builder.\n"
+  },
+  "repo": "https://github.com/ropensci/epubr",
+  "pkg": "epubr",
+  "time": "2026-08-30T07:39:18Z"
+}
