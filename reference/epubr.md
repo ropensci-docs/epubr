@@ -1,0 +1,38 @@
+# epubr: Read EPUB File Metadata and Text
+
+Provides functions supporting the reading and parsing of internal e-book
+content from EPUB files. The 'epubr' package provides functions
+supporting the reading and parsing of internal e-book content from EPUB
+files. E-book metadata and text content are parsed separately and joined
+together in a tidy, nested tibble data frame. E-book formatting is not
+completely standardized across all literature. It can be challenging to
+curate parsed e-book content across an arbitrary collection of e-books
+perfectly and in completely general form, to yield a singular,
+consistently formatted output. Many EPUB files do not even contain all
+the same pieces of information in their respective metadata. EPUB file
+parsing functionality in this package is intended for relatively general
+application to arbitrary EPUB e-books. However, poorly formatted e-books
+or e-books with highly uncommon formatting may not work with this
+package. There may even be cases where an EPUB file has DRM or some
+other property that makes it impossible to read with 'epubr'. Text is
+read 'as is' for the most part. The only nominal changes are minor
+substitutions, for example curly quotes changed to straight quotes.
+Substantive changes are expected to be performed subsequently by the
+user as part of their text analysis. Additional text cleaning can be
+performed at the user's discretion, such as with functions from packages
+like 'tm' or 'qdap'.
+
+## See also
+
+Useful links:
+
+- <https://docs.ropensci.org/epubr/>
+
+- <https://github.com/ropensci/epubr>
+
+- Report bugs at <https://github.com/ropensci/epubr/issues>
+
+## Author
+
+**Maintainer**: Matthew Leonawicz <rpkgs@pm.me>
+([ORCID](https://orcid.org/0000-0001-9452-2771))
